@@ -1,0 +1,60 @@
+@import "../style/extra";
+
+.raceCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: inline-block;
+    margin: 2em 0 2em 0;
+    padding: 2em;
+    width: 60%;
+    background-color: $green;
+    border-radius: 1em;
+}
+
+.race {
+    display: block;
+    position: relative;
+    width: 70%;
+    background-color: $crayola;
+    color: white;
+    margin: 1em;
+    height: 8em;
+    padding: 0 4em 0 4em;
+    border: 3px solid $mantis;
+    border-radius: 1em;
+
+    h3 {
+        text-align: start;
+    }
+}
+
+.races {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.horseButton {
+    position: absolute;
+    top: 45%;
+    right: 5%;
+
+    &.finished {
+        font-size: x-large;
+        font-weight: bold;
+    }
+}
+
+.deleteRaceButton {
+    position: absolute;
+    top: 2%;
+    right: 1%;
+    border: none;
+    background-color: $crayola !important;
+    box-shadow: none !important;
+}

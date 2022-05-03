@@ -1,0 +1,22 @@
+@import "./extra";
+
+.resultsContainer {
+    display: inline-block;
+    width: 100%;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &.horse {
+        background-color: yellow;
+    }
+}
+
+.horse {
+    width: 50%;
+    color: $darkgreen;
+}

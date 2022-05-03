@@ -1,0 +1,22 @@
+.container {
+    display: inline-block;
+    margin-top: 4em;
+    width: 80%;
+    border: 1px solid black;
+
+    input {
+        display: block;
+        box-sizing: border-box;
+        height: 2em;
+        margin: 1em;
+    }
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+
+    button {
+        margin: 1em;
+    }
+}

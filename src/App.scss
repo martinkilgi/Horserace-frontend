@@ -1,0 +1,82 @@
+@import "./style/_extra.scss";
+
+html {
+  background-color: $crayola;
+}
+
+.App {
+  text-align: center;
+
+  a {
+    background-color: $green;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    color: $crayola;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: large;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  button {
+    background-color: $crayola;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    color: $darkgreen;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: large;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+input {
+  display: block;
+  text-align: center;
+  border: 2px solid $crayola;
+  border-radius: 1em;
+  background-color: grey;
+
+  &:focus {
+      background-color: $mantis;
+      outline: none;
+      box-shadow: 0 0 10px $green;
+  }
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

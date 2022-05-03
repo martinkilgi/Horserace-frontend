@@ -1,0 +1,67 @@
+@import "../style/extra";
+
+.results {
+    display: flex;
+    justify-content: center;
+}
+
+.result {
+    display: block;
+    width: 40%;
+    min-width: 30em;
+    background-color: $green;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+}
+
+.horseList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 28em;
+    background-color: $crayola;
+    border-radius: 0.5em;
+    margin-top: 2em;
+}
+
+.horseResult {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.horseContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.crown {
+    position: relative;
+
+    img {
+        position: absolute;
+        left: 0.5em;
+        top: 1em;
+    }
+}
+
+.chip {
+    position: relative;
+
+    img {
+        position: absolute;
+        left: 3em;
+        top: 1.2em;
+    }
+}
+
+.infoButton {
+    border: none;
+    background-color: $green !important;
+    box-shadow: none !important;
+}
